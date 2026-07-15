@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://yu01blc.github.io/kaishu-log-site/sitemap.xml
