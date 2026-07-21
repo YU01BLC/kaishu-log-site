@@ -139,7 +139,8 @@ for (const [page, requiredText] of Object.entries({
     "GitHub Pagesでホスティングされています",
     "GitHubはセキュリティ目的でIPアドレス等を処理する可能性があります",
     "施行日: 2026-07-15",
-    "最終更新日: 2026-07-17",
+    "最終更新日: 2026-07-21",
+    "https://policies.google.com/technologies/ads",
   ],
   "terms/index.html": [
     "復元すると端末内の現在データが上書きされます",
@@ -147,7 +148,7 @@ for (const [page, requiredText] of Object.entries({
     "データ消失を完全に防ぐことはできません",
     "排除または制限できない責任まで否定するものではありません",
     "制定日: 2026-07-15",
-    "最終改定日: 2026-07-17",
+    "最終改定日: 2026-07-15",
   ],
 })) {
   const contents = readFileSync(join(root, page), "utf8").replace(/\s+/g, " ");
