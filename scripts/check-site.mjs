@@ -147,7 +147,7 @@ for (const [page, requiredText] of Object.entries({
     "データ消失を完全に防ぐことはできません",
     "排除または制限できない責任まで否定するものではありません",
     "制定日: 2026-07-15",
-    "最終改定日: 2026-07-15",
+    "最終改定日: 2026-07-17",
   ],
 })) {
   const contents = readFileSync(join(root, page), "utf8").replace(/\s+/g, " ");
