@@ -2,6 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://yu01blc.github.io/kaishu-log-site/</loc></url>
   <url><loc>https://yu01blc.github.io/kaishu-log-site/privacy/</loc></url>
+  <url><loc>https://yu01blc.github.io/kaishu-log-site/privacy/en/</loc></url>
+  <url><loc>https://yu01blc.github.io/kaishu-log-site/privacy/zh-hans/</loc></url>
+  <url><loc>https://yu01blc.github.io/kaishu-log-site/privacy/zh-hant/</loc></url>
+  <url><loc>https://yu01blc.github.io/kaishu-log-site/privacy/ko/</loc></url>
   <url><loc>https://yu01blc.github.io/kaishu-log-site/support/</loc></url>
   <url><loc>https://yu01blc.github.io/kaishu-log-site/terms/</loc></url>
 </urlset>

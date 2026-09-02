@@ -4,10 +4,13 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="回収ログのプライバシーポリシーです。" />
-    <link
-      rel="canonical"
-      href="https://yu01blc.github.io/kaishu-log-site/privacy/"
-    />
+    <link rel="canonical" href="https://yu01blc.github.io/kaishu-log-site/privacy/" />
+    <link rel="alternate" hreflang="ja" href="https://yu01blc.github.io/kaishu-log-site/privacy/" />
+    <link rel="alternate" hreflang="en" href="https://yu01blc.github.io/kaishu-log-site/privacy/en/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://yu01blc.github.io/kaishu-log-site/privacy/zh-hans/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://yu01blc.github.io/kaishu-log-site/privacy/zh-hant/" />
+    <link rel="alternate" hreflang="ko" href="https://yu01blc.github.io/kaishu-log-site/privacy/ko/" />
+    <link rel="alternate" hreflang="x-default" href="https://yu01blc.github.io/kaishu-log-site/privacy/" />
     <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="../assets/styles.css" />
     <title>プライバシーポリシー | 回収ログ</title>
@@ -16,26 +19,12 @@
     <a class="skip-link" href="#main">本文へ移動</a>
     <header>
       <div class="header-inner">
-        <a class="brand" href="https://yu01blc.github.io/kaishu-log-site/"
-          >回収ログ <span>Kaishu Log</span></a
-        >
+        <a class="brand" href="https://yu01blc.github.io/kaishu-log-site/">回収ログ <span>Kaishu Log</span></a>
         <nav aria-label="主要メニュー">
           <ul>
-            <li>
-              <a href="https://yu01blc.github.io/kaishu-log-site/privacy/"
-                >プライバシー</a
-              >
-            </li>
-            <li>
-              <a href="https://yu01blc.github.io/kaishu-log-site/terms/"
-                >利用上の注意・免責</a
-              >
-            </li>
-            <li>
-              <a href="https://yu01blc.github.io/kaishu-log-site/support/"
-                >お問い合わせ</a
-              >
-            </li>
+            <li><a href="https://yu01blc.github.io/kaishu-log-site/privacy/">プライバシー</a></li>
+            <li><a href="https://yu01blc.github.io/kaishu-log-site/terms/">利用上の注意・免責</a></li>
+            <li><a href="https://yu01blc.github.io/kaishu-log-site/support/">お問い合わせ</a></li>
           </ul>
         </nav>
       </div>
@@ -43,86 +32,58 @@
     <main id="main">
       <p class="eyebrow">Privacy Policy</p>
       <h1>プライバシーポリシー</h1>
-      <p class="meta">施行日: 2026-07-15 · 最終更新日: 2026-07-21</p>
+      <nav class="language-switcher" aria-label="プライバシーポリシーの言語">
+        <ul>
+          <li><a href="https://yu01blc.github.io/kaishu-log-site/privacy/" lang="ja" aria-current="page">日本語</a></li>
+          <li><a href="https://yu01blc.github.io/kaishu-log-site/privacy/en/" lang="en">English</a></li>
+          <li><a href="https://yu01blc.github.io/kaishu-log-site/privacy/zh-hans/" lang="zh-Hans">简体中文</a></li>
+          <li><a href="https://yu01blc.github.io/kaishu-log-site/privacy/zh-hant/" lang="zh-Hant">繁體中文</a></li>
+          <li><a href="https://yu01blc.github.io/kaishu-log-site/privacy/ko/" lang="ko">한국어</a></li>
+        </ul>
+      </nav>
+      <p class="meta">施行日: 2026-07-15 · 最終更新日: 2026-09-02</p>
 
       <section>
         <h2>1. 運営者</h2>
-        <p>本アプリ「回収ログ（Kaishu Log）」は、回収ログ運営が運営します。</p>
+        <p>本アプリ「回収ログ（Kaishu Log）」は、投資額と回収額の記録・集計を目的とするアプリです。回収ログ運営が運営します。</p>
       </section>
       <section>
-        <h2>2. アカウント・同期・開発者サーバー</h2>
-        <p>
-          本アプリはユーザー登録・ログインを提供せず、クラウド同期を行いません。記録機能のために開発者サーバーを使用しません。入力された投資額、回収額、日付、メモ、ラベル、テーマ設定、分析解放日は、原則として端末内のSQLiteデータベースで扱います。
-        </p>
+        <h2>2. 取り扱うデータ、アカウントおよび同期</h2>
+        <p>本アプリでは、投資額、回収額、損益、メモ、利用者が作成したラベル、日付、テーマ設定を端末内で扱います。ユーザー登録・ログインを提供せず、クラウド同期を行いません。記録機能のために開発者サーバーを使用しません。記録データは原則として端末内のSQLiteデータベースに保存されます。</p>
+        <p>分析の解除状態は、現在のアプリプロセスのセッション中だけメモリ上に保持し、SQLiteその他の永続ストレージには保存しません。アプリをバックグラウンドにしただけでは同じプロセスが続く限り解除状態が維持されますが、アプリのプロセスを完全に終了すると再びロックされます。</p>
       </section>
       <section>
         <h2>3. 広告・同意管理と第三者処理</h2>
-        <p>
-          分析画面を開くため、利用者が「広告を見て分析を開く」操作をした場合に限り、Google
-          Mobile Ads
-          SDKのRewarded広告をリクエストします。アプリ起動時や分析タブを開いただけでは自動表示しません。GoogleのUser
-          Messaging
-          Platform（UMP）で同意状態を確認し、広告をリクエストできない状態では広告をリクエストしません。EEA、英国、スイスおよび対象となる米国州では、地域に応じた同意・プライバシー選択肢が表示される場合があります。設定の「広告のプライバシー設定」から、必要な場合に選択肢を再表示できます。
-        </p>
-        <p>
-          広告の配信、不正防止、効果測定、診断のため、Google等の広告サービス提供者がIPアドレス、端末・OS情報、広告の表示・クリック・完了、診断情報、同意・プライバシー設定を処理する場合があります。広告配信の詳細は<a
-            href="https://policies.google.com/privacy"
-            >Googleのプライバシーポリシー</a
-          >、<a href="https://policies.google.com/technologies/partner-sites"
-            >Googleが提携サイト等で情報を利用する方法</a
-          >、<a href="https://policies.google.com/technologies/ads"
-            >Googleの広告技術について</a
-          >、<a href="https://adssettings.google.com/">広告設定</a
-          >をご確認ください。広告設定ページは、Googleの広告技術ページの代替として扱いません。
-        </p>
-        <p>
-          本アプリは、投資額、回収額、損益、メモ、利用者が作成したラベル、バックアップJSONを広告事業者へ独自に送信しません。現在のproduction構成では、AndroidのAD_ID
-          permission、iOSのATT要求、IDFA、正確な位置情報、連絡先、写真、カメラ、マイクを利用しません。
-        </p>
+        <p>本アプリはGoogle Mobile Ads SDKを利用し、次の形式の広告をリクエストする場合があります。</p>
+        <ul>
+          <li><strong>Banner:</strong> Homeと、Rewarded広告の報酬獲得後に解除されたAnalysisにBanner広告を表示する場合があります。</li>
+          <li><strong>Interstitial:</strong> Recordの新規保存または更新が正常に完了した後という操作上の区切りで、Interstitial広告を表示する場合があります。保存前や入力途中には、この目的の広告をリクエストしません。</li>
+          <li><strong>Rewarded:</strong> 利用者がAnalysisを見るために明示的に「広告を見る」を選択した場合にRewarded広告をリクエストします。広告視聴による報酬獲得が確認された場合に限り、現在のアプリプロセスのセッション中のAnalysisを解除します。</li>
+        </ul>
+        <p>広告は、通信状態、同意状態、広告在庫その他の条件により取得または表示されない場合があり、表示を保証するものではありません。</p>
+        <p>GoogleのUser Messaging Platform（UMP）で同意状態を確認し、広告をリクエストできない状態では広告をリクエストしません。現在の実装では、広告リクエスト時に非パーソナライズ広告のみを指定しています。設定の「広告のプライバシー設定」から、必要な場合に同意・プライバシー選択肢を再表示できます。</p>
+        <p>広告配信、不正防止、効果測定、診断等のため、Google等の広告サービス提供者がIPアドレス、端末・OS情報、ネットワーク情報、広告の表示・クリック・完了等の広告イベント、診断情報、同意・プライバシー設定を処理する場合があります。広告配信の詳細は<a href="https://policies.google.com/privacy">Googleのプライバシーポリシー</a>、<a href="https://policies.google.com/technologies/partner-sites">Googleが提携サイト等で情報を利用する方法</a>、<a href="https://policies.google.com/technologies/ads">Googleの広告技術について</a>、<a href="https://adssettings.google.com/">広告設定</a>をご確認ください。</p>
+        <p>本アプリは、投資額、回収額、損益、メモ、利用者が作成したラベル、バックアップJSONを広告事業者へ独自に送信しません。今回のproduction releaseはiOS / App Store版のみを対象とし、AndroidのAD_IDは今回のproduction releaseの対象外です。iOS版ではATT要求を行わず、本アプリ側でIDFAを利用しません。また、正確な位置情報、連絡先、写真、カメラ、マイクを利用しません。</p>
       </section>
       <section>
         <h2>4. バックアップと復元</h2>
-        <p>
-          利用者が操作した場合のみ、記録と復元対象の設定をJSONバックアップファイルとして外部へ共有・保存できます。バックアップファイルは暗号化されていません。復元すると端末内の現在の記録、ラベル、復元対象の設定が上書きされます。外部に保存・共有したバックアップファイルは、全データ削除やアプリのアンインストールでは削除されず、本アプリから削除できません。
-        </p>
+        <p>利用者が操作した場合のみ、記録と復元対象の設定をJSONバックアップファイルとして外部へ共有・保存できます。バックアップJSONは暗号化されていません。復元すると端末内の現在の記録、ラベル、復元対象の設定が上書きされます。外部に保存・共有したファイルは、全データ削除やアプリのアンインストールでは削除されず、本アプリから削除できません。</p>
       </section>
       <section>
         <h2>5. 保存期間と削除</h2>
-        <p>
-          端末内のデータは、利用者がアプリ内の全データ削除を実行するか、アプリを削除するまで保持されます。アプリ削除後の端末内データの扱いは、OSおよび端末の仕様に従います。
-        </p>
+        <p>端末内のデータは、利用者がアプリ内の全データ削除を実行するか、アプリを削除するまで保持されます。アプリ削除後の端末内データの扱いは、OSおよび端末の仕様に従います。</p>
       </section>
       <section>
         <h2>6. 公開ページとGitHub</h2>
-        <p>
-          この公開ページはGitHub
-          Pagesでホスティングされています。GitHubはセキュリティ目的でIPアドレス等を処理する可能性があります。GitHub側の処理にはGitHubの<a
-            href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement"
-            >プライバシー声明</a
-          >が適用されます。
-        </p>
+        <p>この公開ページはGitHub Pagesでホスティングされています。GitHubはセキュリティ目的でIPアドレス等を処理する可能性があります。GitHub側の処理にはGitHubの<a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">プライバシー声明</a>が適用されます。</p>
       </section>
       <section>
         <h2>7. 改定とお問い合わせ</h2>
-        <p>
-          本ポリシーを改定する場合は、このページの最終更新日を変更して公開します。お問い合わせは<a
-            href="mailto:kaishulog.support@gmail.com?subject=%E5%9B%9E%E5%8F%8E%E3%83%AD%E3%82%B0%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%AE%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B&amp;body=%E7%AB%AF%E6%9C%AB%E5%90%8D%EF%BC%9A%0AOS%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%EF%BC%9A%0A%E3%82%A2%E3%83%97%E3%83%AA%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%EF%BC%9A%0A%E5%95%8F%E9%A1%8C%E3%81%8C%E7%99%BA%E7%94%9F%E3%81%97%E3%81%9F%E7%94%BB%E9%9D%A2%EF%BC%9A%0A%E5%86%8D%E7%8F%BE%E6%89%8B%E9%A0%86%EF%BC%9A%0A%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%9F%E3%82%A8%E3%83%A9%E3%83%BC%EF%BC%9A%0A%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B%E5%86%85%E5%AE%B9%EF%BC%9A"
-            >kaishulog.support@gmail.com</a
-          >、使い方は<a
-            href="https://yu01blc.github.io/kaishu-log-site/support/"
-            >お問い合わせ・使い方</a
-          >をご確認ください。
-        </p>
+        <p>本ポリシーを改定する場合は、このページの最終更新日を変更して公開します。お問い合わせは<a href="mailto:kaishulog.support@gmail.com?subject=%E5%9B%9E%E5%8F%8E%E3%83%AD%E3%82%B0%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%AE%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B&amp;body=%E7%AB%AF%E6%9C%AB%E5%90%8D%EF%BC%9A%0AOS%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%EF%BC%9A%0A%E3%82%A2%E3%83%97%E3%83%AA%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%EF%BC%9A%0A%E5%95%8F%E9%A1%8C%E3%81%8C%E7%99%BA%E7%94%9F%E3%81%97%E3%81%9F%E7%94%BB%E9%9D%A2%EF%BC%9A%0A%E5%86%8D%E7%8F%BE%E6%89%8B%E9%A0%86%EF%BC%9A%0A%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%9F%E3%82%A8%E3%83%A9%E3%83%BC%EF%BC%9A%0A%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B%E5%86%85%E5%AE%B9%EF%BC%9A">kaishulog.support@gmail.com</a>、使い方は<a href="https://yu01blc.github.io/kaishu-log-site/support/">お問い合わせ・使い方</a>をご確認ください。</p>
       </section>
     </main>
     <footer>
-      <p>
-        回収ログ運営 ·
-        <a href="https://yu01blc.github.io/kaishu-log-site/">公式サイト</a> ·
-        <a href="https://yu01blc.github.io/kaishu-log-site/terms/"
-          >利用上の注意・免責</a
-        >
-      </p>
+      <p>回収ログ運営 · <a href="https://yu01blc.github.io/kaishu-log-site/">公式サイト</a> · <a href="https://yu01blc.github.io/kaishu-log-site/terms/">利用上の注意・免責</a></p>
     </footer>
   </body>
 </html>
