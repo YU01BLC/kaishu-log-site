@@ -4,4 +4,6 @@
 
 公開URL: <https://yu01blc.github.io/kaishu-log-site/>
 
+プライバシーポリシーは、日本語、英語、簡体字中国語、繁体字中国語、韓国語の静的ページを公開します。日本語版のURLは <https://yu01blc.github.io/kaishu-log-site/privacy/> です。
+
 ローカル検査は `node scripts/check-site.mjs` を実行します。`main` への更新はGitHub Actionsを使用してGitHub Pagesへ配信します。

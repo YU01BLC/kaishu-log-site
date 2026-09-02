@@ -163,6 +163,20 @@ li {
   color: var(--muted);
   font-size: 0.94rem;
 }
+.language-switcher {
+  margin: 24px 0 14px;
+  padding: 10px 14px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: rgb(16 32 25 / 70%);
+}
+.language-switcher ul {
+  margin: 0;
+}
+.language-switcher a[aria-current="page"] {
+  color: var(--text);
+  text-decoration-thickness: 3px;
+}
 .contact-template {
   overflow-x: auto;
   padding: 16px;
